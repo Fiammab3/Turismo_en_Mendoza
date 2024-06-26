@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900; 1.100..900&display=swap');
+
+/* Estilos base para todos los dispositivos */
+
+/* Media queries para celulares */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    footer {
+        width: 50;
+        height: auto;
+    }
+}
+
+/* Media queries para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Media queries para PCs */
+@media only screen and (min-width: 1025px) {
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Reseteo universal/
+
+/* Estilos para la barra de navegación */
+
+div .icono {
+    order: 1;
+}
+
+nav ul {
+    background-color: darkred;
+    list-style-type: none;
+    height: 28px;
+    padding: 15px;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: bisque;
+    text-decoration: none;
+    padding: 5px 10px; /* Añade espacio alrededor del texto */
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(233, 146, 146, 0.74); /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: bisque;
+}
+
+.fa-solid {
+    color: bisque;
+    
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los encabezados */
+h1 {
+    margin-top: 20px;
+    color: darkred;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: cursiva;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-top: 20 px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+div {
+    margin-top: 20px;
+    background-color: darkred;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Estilos para el class */
+.invitacion {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.lista {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.listaa {
+    text-align: center;
+}
+
+.listaaa {
+    text-align: center;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color:bisque;
+    color:darkred;
+    text-align: center;
+    margin: 0px; 
+    width: 100%;
+    text-decoration: none;
+}
+
+
+p h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mendoza {
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.diquep {
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.puentei {
+    margin-left: 230px;
+    margin-bottom: 15px;
+}
+
+.ofrece{
+    background-color: darkred;
+    color: bisque;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-top: 20 px;
+    margin-top: 20px;
+}
+
+.mza {
+    margin-left: 220px;
+}
+
+.videomza {
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+.contacto {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
+}
+
+/*integrantes del grupo: Buscema Fiamma- Agostina Cano Porras- Rocio Gutierrez/
