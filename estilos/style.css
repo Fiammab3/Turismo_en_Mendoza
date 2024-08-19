@@ -11,6 +11,11 @@
         width: 50;
         height: auto;
     }
+
+    img {
+        width: 50%;
+    }
+
 }
 
 /* Media queries para tablets */
