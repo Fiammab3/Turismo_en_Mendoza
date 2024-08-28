@@ -52,8 +52,7 @@ let nuevoFormulario = JSON.parse (formu)
 // Agrego un nuevo dato a mi formulario 
 document.getElementById('formulario').addEventListener('submit', function(event){
     event.preventDefault();
-    let errores = []; 
-
+    
     let nombre = document.getElementById('nombre').value;
     let email = document.getElementById('email').value; 
     let bodegaa = document.getElementById('bodegaa').value;
