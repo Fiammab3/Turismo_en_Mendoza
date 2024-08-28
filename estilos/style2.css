@@ -106,11 +106,11 @@ a {
 }
 
 video {
-    padding-left: 300px;
+    padding-left: 320px;
 }
 
 iframe{
-    padding-left: 300px;
+    padding-left: 320px;
 }
 
 div {
@@ -276,7 +276,14 @@ p h2 {
     font-weight: 600;
 }
 
-/*integrantes del grupo: Buscema Fiamma- Agostina Cano Porras- Rocio Gutierrez/
+#userList {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;  /* Ajusta el padding según sea necesario */
+    margin: 0 auto;  /* Esto centra el contenedor horizontalmente */
+    justify-content: center; 
+    align-items: center; /* Esto alinea los elementos dentro del contenedor al centro */
 }
 
 
